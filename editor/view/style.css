@@ -1,0 +1,118 @@
+*{
+	margin: 0; padding: 0;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	background: #f8f8f8;
+	font-size: 16px;
+	color: #424242;
+}
+input, button, textarea{
+	padding: 10px; border:1px solid #e7e7e7;
+}
+input[type="submit"], button{
+	cursor: pointer; text-align: center;
+}
+textarea{
+	height: 150px; resize: none;
+}
+label{
+	margin: 8px 0px;
+	display: block;
+}
+.biru{background: #2196f3; color: #fff; border: 1px solid #0074b9;}
+.biru:hover{background: #0074b9;}
+.hijau{background: #45d363; color: #fff; border: 1px solid #30b34b;}
+.hijau:hover{background: #30b34b;}
+.kuning{background: #ffae00; color: #fff; border: 1px solid #e49c00;}
+.kuning:hover{background: #e49c00;}
+.merah{background: #eb3838; color: #fff; border: 1px solid #dc2929;}
+.merah:hover{background: #dc2929;}
+
+.konten{
+	width: 960px; margin: 0 auto;
+}
+.border{border:1px solid #e7e7e7;}
+.full{width: 100%;}
+.logo{
+	float: left;
+	padding: 0px 0px 0px 20px;
+	color: #fff; font-weight: bold;
+}
+nav{
+	height: 55px; line-height: 55px;
+	background: #ffae00; margin-bottom: 20px;
+}
+nav ul{width: 100%;}
+nav li{
+	display: inline-block;
+	padding: 0px 10px; color: #fff;
+}
+.atas{
+	padding: 20px 0px;
+	text-align: center;
+	background: #fff;
+	border-bottom: 3px solid #2196f3
+}
+.kop{
+	width: 100%; padding: 0px 20px;
+	height: 60px; line-height: 60px;
+	background: #fff;
+	border:1px solid #e7e7e7;
+	margin-bottom: 20px;
+}
+.kop a{float: left; height: 40px; line-height: 40px; padding: 0px 10px; margin-top: 9px;}
+.kop form{float: right;}
+table{
+	width: 100%; border-spacing: 0;
+	border: 1px solid #45d363;
+	background: white; font-size: 0.9em;
+	margin-bottom: 20px;
+}
+.data table td{padding: 10px;}
+.data table tbody tr:nth-child(even){
+	background: #f8f8f8;
+}
+.data table a{padding: 5px 7px; font-size: 0.8em;}
+.add{
+	width: 450px;
+	margin: 0 auto;
+	background: #fff;
+}
+.add form{padding: 15px;}
+
+
+.login{
+	width: 400px;
+	background: #fff;
+	margin: 10% auto;
+}
+.login h2, .login h5{
+	text-align: center;
+	padding: 10px 0px;
+}
+.login form{
+	padding: 15px;
+}
+
+.detail{
+	width: 100%; background: #fff;
+	padding: 10px; margin-bottom: 20px;
+}
+.detail img{
+	width: 100%; height: auto;
+}
+.detail b, .detail h5, .detail p{
+	display: block; padding: 10px 0px;
+}
+.detail b{
+	font-weight: bold;
+	color: #2196f3;
+}
+.detail p{
+	line-height: 25px;
+	text-align: justify;
+}
